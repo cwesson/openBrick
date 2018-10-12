@@ -20,39 +20,46 @@ The basic building block of openBrick in the block.  Each block is a 1x1 tile of
 
 #### `brick([studs=true])`
 Renders a 1x1x1 brick.  
-studs - Set to false to not render studs.
+studs - Set to false to not render studs.  
+![brick](images/brick.png)
 
 #### `brick_array(x, y, [studs=true])`
 Renders an XxY array of bricks.  
 x - Number of blocks in the X dimension.  
 y - Number of blocks in the Y dimension.  
-studs - Set to false to not render studs.
+studs - Set to false to not render studs.  
+![brick_array](images/brick_array.png)
 
 #### `brick_map(map, [studs=true])`
 Render an array of bricks based on the given map.  The height of each block in the brick is the height of a 1x1x1 brick times the value in the map at those coordinates.  
 map - Map of heights for each block.  
-studs - Set to false to not render studs.
+studs - Set to false to not render studs.  
+![brick_map](images/brick_map.png)
 
 ### Boards
 
-#### `board()`
+#### `board([studs=true])`
  Renders a 1x1x1 board.  
- studs - Set to false to not render studs.
+ studs - Set to false to not render studs.  
+ ![board](images/board.png)
 
-#### `board_array(X, Y)`
+#### `board_array(x, x, [studs=true])`
 Renders an XxY array of boards.  
 x - Number of blocks in the X dimension.  
 y - Number of blocks in the Y dimension.  
-studs - Set to false to not render studs.
+studs - Set to false to not render studs.  
+![board_array](images/board_array.png)
 
-#### `board_map(map)`
+#### `board_map(map, [studs=true])`
 Render an array of boards based on the given map.  The height of each block in the board is the height of a 1x1x1 board times the value in the map at those coordinates.  
 map - Map of heights for each block.  
-studs - Set to false to not render studs.
+studs - Set to false to not render studs.  
+![board_map](images/board_map.png)
 
 ### Dots
 
 #### `dot([h], [studs=true])`
 Render a 1x1 dot the height of a board.  
 h - Height of the dot.  
-studs - Set to false to not render studs.
+studs - Set to false to not render studs.  
+![dot](images/dot.png)
