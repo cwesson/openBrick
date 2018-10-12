@@ -6,8 +6,8 @@
  */
 
 include <openBrick/brick.scad>
-include <openBrick/plate.scad>
+include <openBrick/board.scad>
 
 openBrick_brick_array(2, 4);
 
-translate([20, 0]) openBrick_plate_array(2, 4);
+translate([20, 0]) openBrick_board_array(2, 4);

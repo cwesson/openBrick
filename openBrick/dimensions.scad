@@ -15,11 +15,11 @@ cm = 10*mm;
 //! Width of the gap between bricks
 openBrick_block_gap = 0.07*mm;
 
-//! Height of 1 plate (w/o studs)
-openBrick_plate_height = 3.14*mm;
+//! Height of 1 board (w/o studs)
+openBrick_board_height = 3.14*mm;
 
 //! Height of 1 brick (w/o stud)
-openBrick_brick_height = (3*openBrick_plate_height)+(2*openBrick_block_gap);
+openBrick_brick_height = (3*openBrick_board_height)+(2*openBrick_block_gap);
 
 //! Width of 1 brick
 openBrick_block_width = 7.90*mm;

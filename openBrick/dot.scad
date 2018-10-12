@@ -8,10 +8,10 @@
 include <dimensions.scad>
 
 /**
- * Renders a 1x1 dot at the height of a plate.
+ * Renders a 1x1 dot at the height of a board.
  * @param studs Set to false to not render studs
  */
-module openBrick_dot(h=openBrick_plate_height, studs=true){
+module openBrick_dot(h=openBrick_board_height, studs=true){
 	block_width = openBrick_block_width;
 	block_wall = openBrick_block_wall;
 	block_gap = openBrick_block_gap;

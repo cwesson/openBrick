@@ -16,9 +16,9 @@ OpenSCAD is an open source solid 3D CAD modelling language.  More information on
 `brick_array(X, Y)` Renders an XxY array of bricks.
 `brick_map(map)` Render an array of bricks based on the given map.
 
-`dot()` Render a 1x1 dot the height of a plate.
+`dot()` Render a 1x1 dot the height of a board.
 
-`plate()` Renders a 1x1 plate.
-`plate_array(X, Y)` Renders an XxY array of plates.
-`plate_map(map)` Render an array of plates based on the given map.
+`board()` Renders a 1x1 board.
+`board_array(X, Y)` Renders an XxY array of boards.
+`board_map(map)` Render an array of boards based on the given map.
 
