@@ -12,7 +12,7 @@ OpenSCAD is an open source solid 3D CAD modeling language.  More information on 
 
 ### Basics
 
-The basic building block of openBrick in the block.  Each block is a 1x1 tile of the minimum height.  Blocks are combined to produce boards and bricks.  Boards are composed of blocks laid out in a grid in the X and Y dimensions.  Bricks are similar in composition to boards but are 3x as tall.  openBrick also includes dots, which are rounded 1x1 blocks.
+The basic building block of openBrick is the block.  Each block is a 1x1 tile of the minimum height.  Blocks are combined to produce boards and bricks.  Boards are composed of blocks laid out in a grid in the X and Y dimensions.  Bricks are similar in composition to boards but are 3x as tall.  openBrick also includes dots, which are rounded 1x1 blocks.
 
 ## API
 

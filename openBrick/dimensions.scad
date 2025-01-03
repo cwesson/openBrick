@@ -28,13 +28,14 @@ openBrick_block_width = 7.90*mm;
 openBrick_block_wall = 1.08*mm;
 
 //! Diameter of 1 stud
-openBrick_stud_width = 5.02*mm;
+openBrick_stud_width = 4.88*mm;
 
 //! Height of 1 stud
-openBrick_stud_height = 1.76*mm;
+openBrick_stud_height = 1.82*mm;
 
-//! Diameter of 1 stud
-openBrick_hole_width = 4.86*mm;
+//! Thickness of walls
+openBrick_block_wall = (openBrick_block_width-openBrick_stud_width)/2;
+
 
 //! Number of circle fragments
 openBrick_fn = 100;
