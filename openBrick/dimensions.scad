@@ -13,7 +13,7 @@ mm = 1;
 cm = 10*mm;
 
 //! Width of the gap between bricks
-openBrick_block_gap = 0.07*mm;
+openBrick_block_gap = 0.115*mm;
 
 //! Height of 1 board (w/o studs)
 openBrick_board_height = 3.14*mm;
@@ -22,10 +22,7 @@ openBrick_board_height = 3.14*mm;
 openBrick_brick_height = (3*openBrick_board_height)+(2*openBrick_block_gap);
 
 //! Width of 1 brick
-openBrick_block_width = 7.90*mm;
-
-//! Thickness of walls
-openBrick_block_wall = 1.08*mm;
+openBrick_block_width = 7.85*mm;
 
 //! Diameter of 1 stud
 openBrick_stud_width = 4.88*mm;
